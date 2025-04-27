@@ -1,0 +1,36 @@
+html {
+	font-size: 16px;
+}
+
+html::-webkit-scrollbar {
+	width: 0px;
+	display: none;
+}
+
+body {
+	--bg: #131313;
+	--text-color-01: rgb(195, 195, 195);
+	--text-color-02: rgb(99, 99, 99);
+
+	margin: 0;
+	font-family: 'Poppins', 'Helvetica';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: var(--bg);
+}
+
+body * {
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+#root {
+	width: 100vw;
+	height: 100vh;
+	max-height: fill-available;
+	max-height: -webkit-fill-available;
+}

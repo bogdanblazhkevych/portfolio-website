@@ -1,0 +1,20 @@
+{
+	"short_name": "Blazhkevych",
+	"name": "Bogdan Blazhkevych Personal Website",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "logo.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#131313",
+	"background_color": "#131313"
+}
